@@ -2,6 +2,7 @@
 
 #conditions 
 
+set -x  # execute in debig mode.
 A=$1
 
 if [ $A -gt 10 ]
@@ -10,3 +11,4 @@ then
 else
     echo "The given number is lesser than 10"
 fi
+
