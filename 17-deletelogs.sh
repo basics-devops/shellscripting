@@ -7,6 +7,7 @@ then
     echo "please pass the source destination"
     exit 1
 fi
+
 SOURCE_DESTINATION=$1
 # checking for the source destination provided by user.
 if [ -d $SOURCE_DESTINATION ]
